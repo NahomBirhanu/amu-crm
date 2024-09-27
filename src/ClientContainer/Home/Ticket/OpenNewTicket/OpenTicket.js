@@ -74,7 +74,7 @@ export const OpenTicket = () => {
         const {
           data: { msg },
         } = await axios.post(
-          "http://localhost:3001/api/v1/issue/ticket-issue",
+          "https://amu-crm-backend.onrender.com/api/v1/issue/ticket-issue",
           formData
         );
         showSuccess(msg);

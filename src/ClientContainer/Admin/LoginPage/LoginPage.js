@@ -34,7 +34,7 @@ export const LoginPage = () => {
     } else {
       const checkAuth = async () => {
         try {
-          await axios.get("http://localhost:3001/api/v1/auth/check-auth", {
+          await axios.get("https://amu-crm-backend.onrender.com/api/v1/auth/check-auth", {
             headers: {
               Authorization: `Bearer ${tokenInLs}`,
             },
@@ -55,7 +55,7 @@ export const LoginPage = () => {
     try {
       setUpdating(true);
       const response = await axios.post(
-        "http://localhost:3001/api/v1/auth/login",
+        "https://amu-crm-backend.onrender.com/api/v1/auth/login",
         { email, password }
       );
       const { token, username, role, phoneNumber } = response.data;
