@@ -17,8 +17,8 @@ import { ContactUs } from "./ClientContainer/Home/ContactUs/ContactUs";
 import { ErrorProvider } from "./ClientContainer/Admin/ToastErrorPage/ErrorContext";
 import { AdminPage } from "./ClientContainer/Admin/Pages/Routes/AdminPage";
 import { ProtectedRoute } from "./ClientContainer/StaffMemebers/ProtectedRoute";
-axios.defaults.baseURL = "http://localhost:3001/api/v1";
-export const BASE_URL = "http://localhost:3001/";
+axios.defaults.baseURL = "https://amu-crm-backend.onrender.com/api/v1";
+export const BASE_URL = "https://amu-crm-backend.onrender.com/";
 export const App = () => {
   const [theme, colorMode] = useMode("light");
   return (
