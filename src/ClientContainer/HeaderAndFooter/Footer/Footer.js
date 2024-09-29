@@ -29,8 +29,8 @@ export const  Footer=()=>{
             <li><i className="fa-solid fa-house"></i><a href="/" className="">  Home</a></li>
             <li><i className="fa-solid fa-earth-americas"></i><a href="https://www.amu.edu.et/" className="">  News</a> </li>
             <li><i className="fa-solid fa-signal"></i> <a href="/" className="" >  Statistics</a> </li>
-              <li><i className="fa-solid fa-message"></i><a href="/contact-us" className=""> 
-             Contact Us</a> </li>
+              {/* <li><i className="fa-solid fa-message"></i><a href="/contact-us" className=""> 
+             Contact Us</a> </li> */}
             {/* <li><i className="fa-solid fa-p"></i> <a href="/" className="">  Publication</a></li> */}
             
           </ul>
