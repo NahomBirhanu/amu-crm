@@ -36,6 +36,7 @@ export const ServiceDescription = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    console.log("submitted")
     try {
       const response = await axios.post(
         "/admin/add-service",

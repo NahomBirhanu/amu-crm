@@ -52,7 +52,7 @@ export const Topbar = () => {
   return (
     <Box display="flex" justifyContent="space-between" p={2}>
     {/* SEARCH BAR */}
-    <Box
+    {/* <Box
       display="flex"
       backgroundColor={colors.primary[400]}
       borderRadius="3px"
@@ -61,7 +61,8 @@ export const Topbar = () => {
       <IconButton type="button" sx={{ p: 1 }}>
         <SearchIcon />
       </IconButton>
-    </Box>
+    </Box> */}
+    <div></div>
     {/* ICONS */}
     <Box display="flex">
       <IconButton onClick={colorMode.toggleColorMode}>
